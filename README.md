@@ -14,7 +14,7 @@ EMAIL_PASSWORD=your_gmail_app_password
 <br>
 spring.mail.username=${EMAIL_ADDRESS}
 <br>
-##spring.mail.password=${EMAIL_PASSWORD}
+spring.mail.password=${EMAIL_PASSWORD}
 <br>
 
 
