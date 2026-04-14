@@ -24,6 +24,7 @@ public class EmailSender implements Messenger{
 
     @Override
     public void send(Message message) {
+
         if(!(message instanceof Email email)){
             throw new IllegalArgumentException("Fel typ av meddelande.");
         }

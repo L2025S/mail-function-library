@@ -8,16 +8,9 @@ import lombok.Setter;
 @Getter
 @Setter
 public class Email extends Message {
-    @NotBlank(message="Recipient is required.")
-    private String recipient;
 
-    @NotBlank(message="Subject is required.")
-    private String message;
-
-
-    @NotBlank(message ="Message body is required.")
+    @NotBlank(message ="Subject is required.")
     private String subject;
-
 
     @Override
     public String getType() {
