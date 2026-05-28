@@ -12,9 +12,9 @@ GMAIL_APP_PASSWORD=your_gmail_app_password
 
 # Add to the application.properties
 <br>
-spring.mail.username=${EMAIL_ADDRESS}
+spring.mail.username=${GMAIL_ADDRESS}
 <br>
-spring.mail.password=${EMAIL_PASSWORD}
+spring.mail.password=${GMAIL_APP_PASSWORD}
 <br>
 
 
