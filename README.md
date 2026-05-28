@@ -3,9 +3,9 @@ If you want to import this to your App:
 
 # Add environment variables to your app
 <br>
-EMAIL_ADDRESS=your_gmail_address
+GMAIL_ADDRESS=your_gmail_address
 <br>
-EMAIL_PASSWORD=your_gmail_app_password
+GMAIL_APP_PASSWORD=your_gmail_app_password
 <br>
 
 
